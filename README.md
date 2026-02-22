@@ -75,16 +75,16 @@ Update connection string in:
 
 `StudentTaskManager.Api/appsettings.json`
 
+
+
 ### Example (SQLEXPRESS)
 
 ```json
 "ConnectionStrings": {
   "DefaultConnection": "Server=YOUR_MACHINE\\SQLEXPRESS;Database=StudentTaskManagerDb;Trusted_Connection=True;TrustServerCertificate=True"
 }
+
+
 ---
 
-## DataBase Setup
-Add these commands in the package manager console for Database Setup
-Add-Migration InitialCreate -StartupProject StudentTaskManager.Api
-Update-Database -StartupProject StudentTaskManager.Api
 
