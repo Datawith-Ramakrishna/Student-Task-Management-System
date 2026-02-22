@@ -77,7 +77,7 @@ Update connection string in:
 
 
 
-### Example (SQLEXPRESS)
+## Example (SQLEXPRESS)
 
 ```json
 "ConnectionStrings": {
