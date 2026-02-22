@@ -81,9 +81,9 @@ Update connection string in:
 "ConnectionStrings": {
   "DefaultConnection": "Server=YOUR_MACHINE\\SQLEXPRESS;Database=StudentTaskManagerDb;Trusted_Connection=True;TrustServerCertificate=True"
 }
+---
 
-
-## Database Setup
+## DataBase Setup
 Add these commands in the package manager console for Database Setup
 Add-Migration InitialCreate -StartupProject StudentTaskManager.Api
 Update-Database -StartupProject StudentTaskManager.Api
