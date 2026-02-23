@@ -36,27 +36,7 @@ It supports **JWT authentication**, **role-based authorization (Admin/Student)**
 
 ---
 
-## Solution Structure
-│
-├── StudentTaskManager.Api
-│ ├── Controllers
-│ ├── Middleware
-│ └── Program.cs
-│
-├── StudentTaskManager.Domain
-│ ├── Entities
-│ └── Enums
-│
-├── StudentTaskManager.Application
-│ ├── DTOs
-│ ├── Interfaces
-│ └── Common
-│
-└── StudentTaskManager.Infrastructure
-├── Auth
-├── Data
-├── Services
-└── Migrations
+
 
 ---
 
@@ -84,7 +64,5 @@ Update connection string in:
   "DefaultConnection": "Server=YOUR_MACHINE\\SQLEXPRESS;Database=StudentTaskManagerDb;Trusted_Connection=True;TrustServerCertificate=True"
 }
 
-
----
 
 
